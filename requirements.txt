@@ -1,0 +1,6 @@
+Flask
+pymongo
+pandas
+gensim==4.3.1
+scipy==1.11.3
+nltk
