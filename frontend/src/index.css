@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+/*    header css  custom of drop down */
+
+
+.icon-search:hover+.search-down {
+    display: block;
+}
+
+
+.icon-bell:hover+.notify-down {
+    display: block;
+}
+
+
+.icon-user:hover+.account-down {
+    display: block;
+}
+
+
+.icon-equalizer:hover+.setting-down {
+    display: block;
+}
+
+
+.post-content p {
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-content h1 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+  }
+  
+  .post-content h2 {
+    font-size: 1.4rem;
+    font-family: sans-serif;
+    margin: 1.5rem 0;
+  }
+  
+  .post-content a {
+    color: rgb(73, 149, 199);
+    text-decoration: none;
+  }
+  
+  .post-content a:hover {
+    text-decoration: underline;
+  }
+
+
+
+  /*   hamberger before and after  custom css   */
+
+.side-menu .hamburger-section .hamburger::before {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background: black;
+  content: "";
+  left: 0;
+  right: 0;
+  top: -8px;
+  margin: 0 auto;
+}
+.side-menu .hamburger-section .hamburger::after {
+  position: absolute;
+  width: 30px;
+  height: 4px;
+  background: black;
+  content: "";
+  left: 0;
+  right: 0;
+  bottom: -8px;
+  margin: 0 auto;
+}
